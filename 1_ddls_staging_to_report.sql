@@ -1,3 +1,9 @@
+drop database if exists stgdb;
+drop database if exists odsdb;
+drop database if exists edwdb;
+drop database if exists trans_mart;
+drop database if exists payment_mart;
+drop database if exists cc_mart;
 create database stgdb;
 CREATE TABLE stgdb.stg_accounts (
     AccountID VARCHAR(50),
